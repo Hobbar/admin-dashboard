@@ -443,7 +443,7 @@ main .recent-orders a{
 }
 
 .right .recent-updates h2{
-    margin-bottom: .8rem;
+    margin-bottom: 1rem;
 }
 
 .right .recent-updates .updates{
@@ -534,7 +534,7 @@ main .recent-orders a{
 }
 
 /*========== MEDIA QUERIES =================*/
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1393px) {
 
 .container {
     width: 94%;
@@ -564,23 +564,24 @@ main .insights{
 }
 
 main .recent-orders{
-    width: 94%;
+    width: 88%;
     position: absolute;
-    left: 50%;
+    /* left: 50%;
     transform: translateX(-50%);
-    margin: 2rem 0 0 8.8rem;
+    margin: 2rem 0 0 8.8rem; */
 }
 main .recent-orders table{
     width: 83vw;
 }
 
-main table thead tr th:last-child,
-main table thead tr th:first-child{
+/* main table thead tr th:first-child, */
+main table thead tr th:last-child{
     display: none;
 }
 
-main table body tr th:last-child,
-main table body tr th:first-child{
+/* main table tbody tr td:first-child, */
+main table tbody tr td:last-child
+{
     display: none;
 }
 }
